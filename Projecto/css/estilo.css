@@ -1,0 +1,310 @@
+
+/***************
+Estilo general
+***************/ 
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+    
+/***********
+Top Header
+***********/
+
+header{
+    display: inline-flex;
+    background-color:rgb(65, 64, 64);
+    align-items: center;
+    align-content: center;
+    color: white;
+    height: 5vh;
+    width: 100%;
+    overflow: hidden;
+    background:rgba(28, 28, 122, 0.726);
+    background-size: cover;
+    padding: 10px;
+    border-bottom: 1px solid;
+
+
+}
+
+
+
+
+
+/**********
+   Menu
+***********/   
+
+.nav{
+    display:inline-flex;
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    font-size: 1.2em;
+    background-color: rgba(62, 132, 153, 0.719);
+    background-size: cover;
+    color:white;
+    box-shadow: 0px 0.5px 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav:{
+    opacity: 0.5;
+
+}
+
+
+.nav a {
+    color:white;
+    padding: 2vw;
+}
+
+.nav ul{
+    display: inline-flex;
+    }
+    
+    .logo{
+    
+        padding: 1vw;
+    }
+    
+/********
+INICIO
+*********/
+
+/* Hero image */
+
+.uno{
+    background-image: url(/img/hosting.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    background-blend-mode: overlay;
+    background-color:rgba(0, 0, 0, 0.349);
+    text-align: center;
+    line-height: 5em;
+    padding-top: 15vh;
+   
+
+    
+
+}
+
+
+.uno h1{
+    position:flex;
+        font-size: 4em;
+        color: white;
+        mix-blend-mode: screen;
+        text-align: center;
+
+
+    }
+
+    .uno h2{
+        display: flex;
+        justify-content: center;
+        color:white;
+    }
+
+
+    
+button{
+    cursor: pointer;
+    display:inline-block;
+    width: 15vw;
+    height: 6vh;
+    font-size: 1.5em;
+    border-radius: 5vw;
+    color:white;
+    background-color: rgb(175, 123, 26);
+
+}
+
+
+
+/********************
+      Seccion 2
+********************/
+
+.dos{
+    display: inline-grid;
+    width: 100%;
+    grid-template-areas:'hosting dominio servidor';
+    background-color: rgb(62, 132, 153);
+    text-align: center;
+    align-content: center;
+    line-height: 1.5;
+
+}
+
+.hosting{
+    display:inline-grid;
+    font-size: 1.3em;
+    justify-items: center;
+    color: white;
+    font-style: bold;
+    grid-area: hosting;
+
+}
+
+.hosting h1{
+    width:100%
+    color: white;
+    text-align: center;
+  
+}
+
+.fa-wordpress{
+    display: grid;
+    color: white;
+    font-size: 6em;
+    padding: 1vh;
+}
+
+.dominio {
+    display:inline-grid;
+    font-size: 1.3em;
+    justify-items: center;
+    color: white;
+    grid-area: dominio;
+    width: 100;
+ 
+}
+
+.dominio h1{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+.dominio ul{
+    transform: translate(0vw,-3.7vh);
+}
+
+
+.globo-dominio{
+    font-size: 6em;
+    transform: translate(0vw,-2vh);
+}
+
+.servidor{
+    display:inline-grid;
+    font-size: 1.3em;
+    color: white;
+    width: 100%;
+    justify-items: center;
+    grid-area: servidor;
+ 
+
+}
+
+.servidor h1{
+  width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+.server{
+    font-size:7rem;
+    color: white;
+ 
+
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    background-color:rgb(65, 64, 64);
+    align-items: center;
+    justify-content: center;
+    color:white
+}
+
+
+.arrow{
+    bottom: 0;
+    right: 10vw;
+    font-size: 2em;
+}
+
+
+/**********
+Servidores
+***********/
+
+body{
+     background-image:url(https://www.racksolutions.com/news//app/uploads/AdobeStock_173122779.jpeg);
+background-size:cover;
+}
+
+.tres{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content:center ;
+    padding:10vh 0 10vh 0 ;
+
+    
+}
+
+.tabla-uno{
+
+  border:1px solid;
+  text-align:center;
+  background-color:#eee;
+  line-height:4em;
+  width: 100%;
+}
+
+.tabla-uno:hover{
+  cursor:pointer;
+
+}
+
+.etiqueta{
+  border-bottom:1px solid;
+
+  color:white;
+  background-color: rgb(175, 123, 26);
+}
+
+.precio{
+ border-bottom:1px solid;
+  background-color:#fff;
+}
+
+.info{
+  background-color:#eee;
+  padding:5vh;
+}
+
+.info:hover{
+background-color: rgb(62, 132, 153);
+color: white;
+}
+
+/***********
+  Dominio
+**********/
+
+.cuatro{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content:center ;
+    padding:10vh 0 10vh 0 ;
+
+}
